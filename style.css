@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    width: 500px;
+    height: 450px;
+}
+
+.logo {
+    background-color: rgba(71, 95, 128, 0.2);
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+}
+.text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text p{
+    color: hsl(216, 12%, 54%);
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.numbers {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 20px;
+}
+li{
+    background-color: rgba(71, 95, 128, 0.2);
+    color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    border: none;
+    opacity: 0.75;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit {
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 450px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px;
+    margin: 25px;
+    text-transform: uppercase;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
